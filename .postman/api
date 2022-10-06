@@ -4,10 +4,14 @@ id = a9a95b0e-4a6a-4bd9-9442-18ba39adae5b
 
 [relations.collections]
 rootDirectory = postman/collections
+files[] = {"id":"16405397-81ea9605-f3c9-4e4d-ad91-142a7fdfdff8","path":"Swagger Petstore.json","metaData":{}}
 
 [relations.collections.metaData]
 
 [relations.apiDefinition]
 rootDirectory = postman/schemas
+files[] = {"path":"index.json","metaData":{}}
 
 [relations.apiDefinition.metaData]
+type = openapi:2
+rootFiles[] = index.json
